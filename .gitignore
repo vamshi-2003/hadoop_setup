@@ -1,0 +1,3 @@
+hadoop_IO/input/*
+hadoop_IO/output/*
+*.class
