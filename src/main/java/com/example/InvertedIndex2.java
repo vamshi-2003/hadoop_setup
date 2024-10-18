@@ -1,3 +1,5 @@
+// this is doc printing with combined indices
+
 package com.example;
 import java.io.IOException;
 import java.util.HashMap;
@@ -15,7 +17,7 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
-public class App {
+public class InvertedIndex2 {
     
     public static class InvertedIndexMapper extends Mapper<LongWritable, Text, Text, Text> {
         private final Text word = new Text();
